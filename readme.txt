@@ -1,11 +1,11 @@
 === Sketchfab oEmbed ===
 Author: Rami Yushuvaev
-Author URI: http://GenerateWP.com
+Author URI: http://GenerateWP.com/
 Contributors: ramiy
 Tags: Sketchfab, oEmbed, 3d, models
 Requires at least: 3.5
 Tested up to: 4.1.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 Add Sketchfab to the WordPress oEmbed providers
 
@@ -20,8 +20,8 @@ Embed content using nothing but a URL. Just copy the model URL from [sketchfab.c
 = Installation =
 1. In your WordPress Dashboard go to "Plugins" -> "Add Plugin".
 2. Search for "Sketchfab oEmbed".
-3. Install sketchfab plugin by pressing the plugin "Install" button.
-4. Activate the sketchfab plugin.
+3. Install the plugin by pressing the "Install" button.
+4. Activate the plugin by pressing the "Activate" button.
 
 = Updating =
 * Use WordPress automatic updates to upgrade to the latest version. Ensure to backup your site just in case.
@@ -37,6 +37,10 @@ Embed content using nothing but a URL. Just copy the model URL from [sketchfab.c
 * MySQL version 5.5 or greater.
 
 == Changelog ==
+
+= 1.1 =
+* Add i18n support.
+* Add hebrew (he_IL) traslation.
 
 = 1.0 =
 * Initial release
