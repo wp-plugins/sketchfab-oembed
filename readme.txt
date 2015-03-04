@@ -5,15 +5,19 @@ Contributors: ramiy
 Tags: Sketchfab, oEmbed, 3d, models
 Requires at least: 3.5
 Tested up to: 4.1.1
-Stable tag: 1.1
+Stable tag: 1.2
 
 Add Sketchfab to the WordPress oEmbed providers
 
 == Description ==
 
-The sketchfab oembed plugin enables site owners to easily embed 3d models from [sketchfab.com](https://www.sketchfab.com).
+[Sketchfab](https://www.sketchfab.com) is the place to be for 3D files: a platform to publish and find the best 3D content. Millions of people make 3D models or scan the real world in 3D, why would they share this in 2D? What YouTube did for video makers, or Soundcloud for musicians, we are doing it for creators of 3D content.
 
-Embed content using nothing but a URL. Just copy the model URL from [sketchfab.com](https://www.sketchfab.com) and paste it to your post.
+Sketchfab integrates with all major 3D creation tools, and is natively built in Photoshop, Modo and Blender. Sketchfab supports 28 native 3D formats, and displays them in browser in real-time.
+
+The Sketchfab 3D viewer can be embedded on any web page, as easily as a YouTube video. This plugin will enables you to embed 3d models from sketchfab using nothing but a URL. Just copy the model URL from [sketchfab.com](https://www.sketchfab.com) and paste it to your post.
+
+https://vimeo.com/43600255
 
 == Installation ==
 
@@ -37,6 +41,9 @@ Embed content using nothing but a URL. Just copy the model URL from [sketchfab.c
 * MySQL version 5.5 or greater.
 
 == Changelog ==
+
+= 1.2 =
+* Add branding text and a video to the readme file
 
 = 1.1 =
 * Add i18n support.

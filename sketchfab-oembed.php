@@ -2,7 +2,7 @@
 /*
 Plugin Name: Sketchfab oEmbed
 Description: Adds oEmbed support for Sketchfab.com
-Version: 1.1
+Version: 1.2
 Author: Rami Yushuvaev
 Author URI: http://GenerateWP.com/
 Text Domain: sketchfab-oembed
