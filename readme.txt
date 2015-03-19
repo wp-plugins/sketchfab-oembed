@@ -40,10 +40,15 @@ https://vimeo.com/43600255
 * PHP version 5.4 or greater.
 * MySQL version 5.5 or greater.
 
+== Screenshots ==
+1. Pasting the URL to the text editor.
+2. Pasting the URL to the visual editor.
+
 == Changelog ==
 
 = 1.2 =
-* Add branding text and a video to the readme file
+* Add branding text and a video to the readme file.
+* Add two screenshots.
 
 = 1.1 =
 * Add i18n support.
