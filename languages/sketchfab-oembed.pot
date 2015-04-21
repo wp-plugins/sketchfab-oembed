@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Sketchfab oEmbed package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Sketchfab oEmbed 1.1\n"
+"Project-Id-Version: Sketchfab oEmbed 1.3\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/sketchfab-oembed\n"
-"POT-Creation-Date: 2015-03-02 18:43:14+00:00\n"
+"POT-Creation-Date: 2015-04-21 07:27:18+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,8 +16,12 @@ msgstr ""
 msgid "Sketchfab oEmbed"
 msgstr ""
 
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/sketchfab-oembed/"
+msgstr ""
+
 #. Description of the plugin/theme
-msgid "Adds oEmbed support for Sketchfab.com"
+msgid "Embed 3D models from sketchfab.com into your WordPress site"
 msgstr ""
 
 #. Author of the plugin/theme
