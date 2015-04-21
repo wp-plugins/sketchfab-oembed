@@ -1,13 +1,13 @@
 === Sketchfab oEmbed ===
-Author: Rami Yushuvaev
-Author URI: http://GenerateWP.com/
 Contributors: ramiy
 Tags: Sketchfab, oEmbed, 3d, models
 Requires at least: 3.5
-Tested up to: 4.1.1
-Stable tag: 1.2
+Tested up to: 4.2
+Stable tag: 1.3
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add Sketchfab to the WordPress oEmbed providers
+Embed 3D models from sketchfab.com into your WordPress site
 
 == Description ==
 
@@ -15,7 +15,7 @@ Add Sketchfab to the WordPress oEmbed providers
 
 Sketchfab integrates with all major 3D creation tools, and is natively built in Photoshop, Modo and Blender. Sketchfab supports 28 native 3D formats, and displays them in browser in real-time.
 
-The Sketchfab 3D viewer can be embedded on any web page, as easily as a YouTube video. This plugin will enables you to embed 3d models from sketchfab using nothing but a URL. Just copy the model URL from [sketchfab.com](https://www.sketchfab.com) and paste it to your post.
+The Sketchfab 3D viewer can be embedded on any web page, as easily as a YouTube video. This plugin will enables you to embed 3d models from sketchfab using nothing but the URL. Just copy the model URL from [sketchfab.com](https://www.sketchfab.com) and paste it to your post.
 
 https://vimeo.com/43600255
 
@@ -40,19 +40,38 @@ https://vimeo.com/43600255
 * PHP version 5.4 or greater.
 * MySQL version 5.5 or greater.
 
+== Frequently Asked Questions ==
+
+= How do I embed 3D models from sketchfab? =
+
+With this plugin you can use the model URL, just paste the URL into your post editor:
+`https://sketchfab.com/models/g9uB1BAArLX0tLxmuxHYJfdRMbH`
+
+= How do I set custom dimentions to my models? =
+
+In wordpress 4.2 you can double click the embedded models and set max `width` and max `height` dimentions. It will add the WordPress `[embed]` shortcode:
+`[embed width="400" height="300"]https://sketchfab.com/models/g9uB1BAArLX0tLxmuxHYJfdRMbH[/embed]`
+
+**Note:** Doing it the WordPress way, using the `[embed]` shortcode, is backwards and forward compatible, and it works  with all the themes.
+
 == Screenshots ==
 1. Pasting the URL to the text editor.
 2. Pasting the URL to the visual editor.
 
 == Changelog ==
 
-= 1.2 =
+= 1.3 (2015-04-21) =
+* Prevent direct access to php files.
+* Prevent direct access to directories.
+
+= 1.2 (2015-03-04) =
 * Add branding text and a video to the readme file.
 * Add two screenshots.
 
-= 1.1 =
+= 1.1 (2015-03-02) =
 * Add i18n support.
 * Add hebrew (he_IL) traslation.
 
-= 1.0 =
+= 1.0 (2015-03-01) =
 * Initial release
+* Register oEmbed provider.
